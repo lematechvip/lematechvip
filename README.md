@@ -23,7 +23,8 @@ Here are some ideas to get you started:
 
 ## Tags
 
-- 🤔 _Full stack engineer
+- Full Stack Engineer
+- Efficiency Solutions Engineer
 
 
 ## Some Statistics About Me
