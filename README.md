@@ -25,6 +25,7 @@ Here are some ideas to get you started:
 
 - 🤔 Full Stack Engineer
 - 😄 Efficiency Solutions Engineer
+- 💬 Talk is cheap. Show me the code
 
 
 ## Some Statistics About Me
