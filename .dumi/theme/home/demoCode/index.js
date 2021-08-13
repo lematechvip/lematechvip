@@ -10,16 +10,16 @@ function Page2({ location }) {
     <div className="home-page page2">
       <div className="home-page-wrapper">
         <h2>
-          Let’s <span> Pro </span>
+          Let’s <span> LeMa </span>
         </h2>
-        <p key="p" className="page-content">
+      {/*  <p key="p" className="page-content">
           <FormattedMessage id="app.home.letspro" />
         </p>
         <div key="code1" className="home-code">
-          <div>$ yarn create umi my-app</div>
-
+          <div>工具选得好，下班回家早；研发用的对，半夜安心睡！</div>
+*/}
           {/* Select Pro */}
-          <br />
+          {/*<br />
           <div>
             {' '}
             Select the boilerplate type:{' '}
@@ -29,10 +29,10 @@ function Page2({ location }) {
           </div>
           <div>
             <span className="home-code-selection">❯</span> ant-design-pro{' '}
-          </div>
+          </div>*/}
 
           {/* Select TypeScript */}
-          <br />
+          {/*<br />
           <div>
             {' '}
             Which language do you want to use?{' '}
@@ -45,10 +45,10 @@ function Page2({ location }) {
           </div>
           <div>
             <span className="home-code-selection" /> JavaScript
-          </div>
+          </div>*/}
 
           {/* Start */}
-          <br />
+          {/*<br />
           <div>$ cd my-app</div>
           <div>$ yarn</div>
           <div>
@@ -56,8 +56,8 @@ function Page2({ location }) {
             <span className="home-code-comment">
               # <FormattedMessage id="app.home.openbrowser" /> http://localhost:8000
             </span>
-          </div>
-        </div>
+          </div>*/}
+        {/*</div>*/}
         <p key="p2" className="page-content">
           <FormattedMessage
             id="app.home.needhelp"
@@ -73,7 +73,7 @@ function Page2({ location }) {
                 </Link>
               ),
               ask: (
-                <a href="https://github.com/ant-design/ant-design-pro/issues">
+                <a href="https://github.com/lematechvip/hrun4j/issues">
                   <FormattedMessage id="app.home.ask" />
                 </a>
               ),
@@ -86,7 +86,7 @@ function Page2({ location }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button type="primary">
+           {/* <Button type="primary">
               <FormattedMessage id="app.home.download" />
               <span
                 style={{
@@ -95,7 +95,7 @@ function Page2({ location }) {
               >
                 Pro
               </span>
-            </Button>
+            </Button>*/}
           </a>
         </div>
       </div>

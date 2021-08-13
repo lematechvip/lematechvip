@@ -228,19 +228,24 @@ export default () => {
       </div>
       <div className={styles.content}>
         <div className={styles['banner-title-wrapper']}>
-          <h1 style={{ opacity: 1, transform: 'translate(0px, 0px)' }}>ANT DESIGN PRO</h1>
+          <h1 style={{ opacity: 1, transform: 'translate(0px, 0px)' }}>乐马技术</h1>
           <p style={{ opacity: 1, transform: 'translate(0px, 0px)' }}>
             <FormattedMessage id="app.home.slogan" />
           </p>
+
+          <p className={styles.lema_idea}>
+            <FormattedMessage id="app.home.idea" />
+          </p>
+
           <div
             className={styles['button-wrapper']}
             style={{ opacity: 1, transform: 'translate(0px, 0px)' }}
           >
-            <a href="http://preview.pro.ant.design" target="_blank" rel="noopener noreferrer">
+           {/* <a href="http://preview.pro.ant.design" target="_blank" rel="noopener noreferrer">
               <button type="button" className="ant-btn ant-btn-primary">
                 <FormattedMessage id="app.home.preview" />
               </button>
-            </a>
+            </a>*/}
             <a href="/docs/getting-started">
               <button
                 type="button"
@@ -253,8 +258,8 @@ export default () => {
             <GitHubButton
               key="github-button"
               type="stargazers"
-              namespace="ant-design"
-              repo="ant-design-pro"
+              namespace="lematechvip"
+              repo="hrun4j"
             />
           </div>
         </div>

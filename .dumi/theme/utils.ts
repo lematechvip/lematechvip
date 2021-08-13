@@ -4,7 +4,8 @@
 export function isZhCN(pathname: string) {
   if (pathname === '/') {
     if (typeof window !== 'undefined') {
-      const locale = localStorage ? localStorage.getItem('locale') : 'en-US';
+      //const locale = localStorage ? localStorage.getItem('locale') : 'en-US';
+      const locale = localStorage ? localStorage.getItem('locale') : 'zh-CN';
       if (locale === 'zh-CN') {
         return true;
       }

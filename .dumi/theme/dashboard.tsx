@@ -22,7 +22,7 @@ const Dashboard: React.FC<{ menuData: IMenuItem[] }> = ({ menuData }) => {
       }}
     >
       <Divider />
-      <Input
+      {/*<Input
         value={search}
         placeholder="请输入"
         className="components-overview-search"
@@ -31,9 +31,9 @@ const Dashboard: React.FC<{ menuData: IMenuItem[] }> = ({ menuData }) => {
         }}
         autoFocus
         suffix={<SearchOutlined />}
-      />
+      />*/}
       <Divider />
-      <Row gutter={[24, 24]}>
+     {/* <Row gutter={[24, 24]}>
         {menuData.map((group) => {
           const components =
             group?.children?.filter(
@@ -85,7 +85,7 @@ const Dashboard: React.FC<{ menuData: IMenuItem[] }> = ({ menuData }) => {
             </Col>
           ) : null;
         })}
-      </Row>
+      </Row>*/}
     </div>
   );
 };

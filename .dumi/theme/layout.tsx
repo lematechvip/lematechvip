@@ -79,8 +79,8 @@ export default ({ children, ...props }: IRouteComponentProps) => {
         <Layout {...props}>
           <>
             <Helmet>
-              <link rel="icon" href="https://pro.ant.design/favicon.png" type="image/x-icon" />
-              <title>{`${context.meta.title} - Ant Design Pro`}</title>
+              <link rel="icon" href="https://cdn.lematech.vip/lematech_logo.svg" type="image/x-icon" />
+              <title>{`${context.meta.title} - 乐马技术`}</title>
             </Helmet>
             {context.meta.title && hasTitle ? <h1>{context.meta.title}</h1> : null}
             {children}

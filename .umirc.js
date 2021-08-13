@@ -2,9 +2,9 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 const menus = require('./formatMenu');
 export default {
-  title: 'Ant Design Pro',
+  title: '乐马技术',
   mode: 'site',
-  logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
+  logo: 'https://cdn.lematech.vip/lematech_logo.svg',
   extraBabelPlugins: [
     [
       'import',
@@ -23,7 +23,7 @@ export default {
   metas: [
     {
       property: 'og:site_name',
-      content: 'Ant Design Pro',
+      content: '乐马技术',
     },
     {
       'data-rh': 'keywords',
@@ -69,46 +69,38 @@ export default {
         title: 'version',
         children: [
           {
-            title: 'ANT DESIGN PRO V1',
+            title: 'hrun4j',
             path: 'https://v1.pro.ant.design/',
           },
           {
-            title: 'ANT DESIGN PRO V2',
+            title: 'lmcov',
             path: 'https://v2-pro.ant.design/',
-          },
-          {
-            title: 'ANT DESIGN PRO V4',
-            path: 'https://v4-pro.ant.design/',
-          },
+          }
         ],
       },
       {
         title: 'GitHub',
-        path: 'https://github.com/ant-design/ant-design-pro',
+        path: 'https://github.com/lematechvip/hrun4j',
       },
     ],
     'zh-CN': [
       null,
       {
-        title: '历史版本',
+        title: '开源项目',
         children: [
           {
-            title: 'ANT DESIGN PRO V1',
-            path: 'https://v1.pro.ant.design/',
+            title: 'hrun4j',
+            path: 'https://github.com/lematechvip/hrun4j',
           },
           {
-            title: 'ANT DESIGN PRO V2',
-            path: 'https://v2-pro.ant.design/',
-          },
-          {
-            title: 'ANT DESIGN PRO V4',
-            path: 'https://v4-pro.ant.design/',
-          },
+            title: 'lmcov',
+            path: 'https://github.com/lematechvip/lmcov',
+          }
         ],
       },
       {
         title: 'GitHub',
-        path: 'https://github.com/ant-design/ant-design-pro',
+        path: 'https://github.com/lematechvip',
       },
     ],
   },

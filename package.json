@@ -1,11 +1,11 @@
 {
-  "name": "ant-design-pro-site",
+  "name": "lematechvip",
   "version": "2.3.0",
-  "description": "site of Ant Design Pro",
-  "homepage": "http://pro.ant.design/",
+  "description": "乐马技术，专注质效",
+  "homepage": "http://lematech.vip/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/ant-design-pro-site"
+    "url": "https://github.com/lematechvip/lematechvip_web"
   },
   "license": "MIT",
   "scripts": {
@@ -53,5 +53,5 @@
     "style-loader": "^2.0.0",
     "typescript": "^4.0.0"
   },
-  "title": "Ant Design Pro"
+  "title": "乐马技术，专注质效"
 }

@@ -34,15 +34,8 @@ export default {
   'app.footer.author': '蚂蚁集团体验技术部出品 @ XTech',
   'app.footer.work_with_us': '加入我们',
   'app.footer.more-product': '更多产品',
-  'app.footer.company': 'XTech',
+  'app.footer.company': 'LeMa',
   'app.footer.ant-design': '蚂蚁 UI 体系',
-  'app.footer.yuque': '语雀',
-  'app.footer.yuque.slogan': '专业的云端知识库',
-  'app.footer.antv.slogan': '数据可视化解决方案',
-  'app.footer.egg.slogan': '企业级 Node.js 框架',
-  'app.footer.zhihu': 'Ant Design 专栏',
-  'app.footer.zhihu.xtech': '体验科技专栏',
-  'app.footer.seeconf': '蚂蚁体验科技大会',
-  'app.footer.xtech': '蚂蚁体验科技',
-  'app.footer.xtech.slogan': '让用户体验美好',
+  'app.footer.lema': '乐马',
+  'app.footer.lema.slogan': '专注质效'
 };

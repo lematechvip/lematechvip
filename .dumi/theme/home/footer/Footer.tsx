@@ -6,15 +6,10 @@ import 'rc-footer/assets/index.css';
 import { presetPalettes } from '@ant-design/colors';
 import './index.less';
 import {
-  AntDesignOutlined,
+
   MediumOutlined,
   TwitterOutlined,
-  ZhihuOutlined,
   GithubOutlined,
-  BugOutlined,
-  IssuesCloseOutlined,
-  BookOutlined,
-  QuestionCircleOutlined,
 } from '@ant-design/icons';
 import { isLocalStorageNameSupported } from '../../utils';
 
@@ -51,69 +46,7 @@ class Footer extends React.Component<any & { location: any; isHome: boolean }> {
           title: 'Ant Design',
           url: 'https://ant.design',
           openExternal: true,
-        },
-        {
-          title: 'Ant Design Charts',
-          url: 'https://charts.ant.design',
-          openExternal: true,
-        },
-        {
-          title: 'Pro Components',
-          description: '模板组件',
-          url: 'https://procomponents.ant.design',
-          openExternal: true,
-        },
-        {
-          title: 'Ant Design Mobile',
-          url: 'https://mobile.ant.design',
-          openExternal: true,
-        },
-        {
-          title: 'Ant Design Landing',
-          description: <FormattedMessage id="app.footer.landing" />,
-          url: 'https://landing.ant.design',
-          openExternal: true,
-        },
-        {
-          title: 'Scaffolds',
-          description: <FormattedMessage id="app.footer.scaffolds" />,
-          url: 'https://scaffold.ant.design',
-          openExternal: true,
-        },
-        {
-          title: 'Umi',
-          description: <FormattedMessage id="app.footer.umi" />,
-          url: 'https://umijs.org',
-          openExternal: true,
-        },
-        {
-          title: 'Dumi',
-          description: <FormattedMessage id="app.footer.dumi" />,
-          url: 'https://d.umijs.org',
-          openExternal: true,
-        },
-        {
-          title: 'qiankun',
-          description: <FormattedMessage id="app.footer.qiankun" />,
-          url: 'https://qiankun.umijs.org',
-          openExternal: true,
-        },
-        {
-          title: 'ahooks',
-          description: <FormattedMessage id="app.footer.hooks" />,
-          url: 'https://github.com/alibaba/hooks',
-          openExternal: true,
-        },
-        {
-          title: 'Ant Motion',
-          description: <FormattedMessage id="app.footer.motion" />,
-          url: 'https://motion.ant.design',
-          openExternal: true,
-        },
-        {
-          title: <FormattedMessage id="app.footer.chinamirror" />,
-          url: 'https://ant-design.gitee.io/',
-        },
+        }
       ],
     };
 
@@ -121,47 +54,17 @@ class Footer extends React.Component<any & { location: any; isHome: boolean }> {
       title: <FormattedMessage id="app.footer.community" />,
       items: [
         {
-          icon: <AntDesignOutlined />,
-          title: <FormattedMessage id="app.footer.awesome" />,
-          url: 'https://github.com/websemantics/awesome-ant-design',
-          openExternal: true,
-        },
-        {
           icon: <MediumOutlined />,
-          title: 'Medium',
-          url: 'http://medium.com/ant-design/',
+          title: 'TesterHome',
+          url: 'https://testerhome.com/',
           openExternal: true,
         },
         {
           icon: <TwitterOutlined style={{ color: '#1DA1F2' }} />,
-          title: 'Twitter',
-          url: 'http://twitter.com/antdesignui',
+          title: 'DebugTalk',
+          url: 'https://debugtalk.com/',
           openExternal: true,
-        },
-        {
-          icon: <ZhihuOutlined style={{ color: '#0084ff' }} />,
-          title: <FormattedMessage id="app.footer.zhihu" />,
-          url: 'http://zhuanlan.zhihu.com/antdesign',
-          openExternal: true,
-        },
-        {
-          icon: <ZhihuOutlined style={{ color: '#0084ff' }} />,
-          title: <FormattedMessage id="app.footer.zhihu.xtech" />,
-          url: 'http://zhuanlan.zhihu.com/xtech',
-          openExternal: true,
-        },
-        {
-          icon: (
-            <img
-              src="https://gw.alipayobjects.com/zos/rmsportal/mZBWtboYbnMkTBaRIuWQ.png"
-              alt="seeconf"
-            />
-          ),
-          title: 'SEE Conf',
-          description: <FormattedMessage id="app.footer.seeconf" />,
-          url: 'https://seeconf.antfin.com/',
-          openExternal: true,
-        },
+        }
       ],
     };
 
@@ -171,45 +74,9 @@ class Footer extends React.Component<any & { location: any; isHome: boolean }> {
         {
           icon: <GithubOutlined />,
           title: 'GitHub',
-          url: 'https://github.com/ant-design/ant-design',
+          url: 'https://github.com/lematechvip',
           openExternal: true,
-        },
-        {
-          icon: <BugOutlined />,
-          title: <FormattedMessage id="app.footer.bug-report" />,
-          url: 'https://new-issue.ant.design/',
-          openExternal: true,
-        },
-        {
-          icon: <IssuesCloseOutlined />,
-          title: <FormattedMessage id="app.footer.issues" />,
-          url: 'https://github.com/ant-design/ant-design/issues',
-          openExternal: true,
-        },
-        {
-          icon: <BookOutlined />,
-          title: <FormattedMessage id="app.footer.course" />,
-          url: 'https://www.yuque.com/ant-design/course',
-          openExternal: true,
-        },
-        {
-          icon: <QuestionCircleOutlined />,
-          title: <FormattedMessage id="app.footer.discussions" />,
-          url: 'https://github.com/ant-design/ant-design/discussions',
-          openExternal: true,
-        },
-        {
-          icon: <QuestionCircleOutlined />,
-          title: <FormattedMessage id="app.footer.stackoverflow" />,
-          url: 'http://stackoverflow.com/questions/tagged/antd',
-          openExternal: true,
-        },
-        {
-          icon: <QuestionCircleOutlined />,
-          title: <FormattedMessage id="app.footer.segmentfault" />,
-          url: 'https://segmentfault.com/t/antd',
-          openExternal: true,
-        },
+        }
       ],
     };
 
@@ -225,62 +92,15 @@ class Footer extends React.Component<any & { location: any; isHome: boolean }> {
         {
           icon: (
             <img
-              src="https://gw.alipayobjects.com/zos/rmsportal/XuVpGqBFxXplzvLjJBZB.svg"
-              alt="yuque"
+              src="https://cdn.lematech.vip/lematech_logo.svg"
+
             />
           ),
-          title: <FormattedMessage id="app.footer.yuque" />,
-          url: 'https://yuque.com',
-          description: <FormattedMessage id="app.footer.yuque.slogan" />,
+          title: <FormattedMessage id="app.footer.lema" />,
+          url: 'https://lematech.vip',
+          description: <FormattedMessage id="app.footer.lema.slogan" />,
           openExternal: true,
-        },
-        {
-          icon: (
-            <img
-              src="https://gw.alipayobjects.com/zos/antfincdn/nc7Fc0XBg5/8a6844f5-a6ed-4630-9177-4fa5d0b7dd47.png"
-              alt="AntV"
-            />
-          ),
-          title: 'AntV',
-          url: 'https://antv.vision',
-          description: <FormattedMessage id="app.footer.antv.slogan" />,
-          openExternal: true,
-        },
-        {
-          icon: (
-            <img
-              src="https://gw.alipayobjects.com/zos/antfincdn/v2%24rh7lqpu/82f338dd-b0a6-41bc-9a86-58aaa9df217b.png"
-              alt="Egg"
-            />
-          ),
-          title: 'Egg',
-          url: 'https://eggjs.org',
-          description: <FormattedMessage id="app.footer.egg.slogan" />,
-          openExternal: true,
-        },
-        {
-          icon: (
-            <img
-              src="https://gw.alipayobjects.com/zos/rmsportal/DMDOlAUhmktLyEODCMBR.ico"
-              alt="kitchen"
-            />
-          ),
-          title: 'Kitchen',
-          description: <FormattedMessage id="app.footer.kitchen" />,
-          url: 'https://kitchen.alipay.com',
-          openExternal: true,
-        },
-        {
-          icon: (
-            <img
-              src="https://gw.alipayobjects.com/zos/rmsportal/nBVXkrFdWHxbZlmMbsaH.svg"
-              alt="xtech"
-            />
-          ),
-          title: <FormattedMessage id="app.footer.xtech" />,
-          url: 'https://xtech.antfin.com/',
-          openExternal: true,
-        },
+        }
       ],
     };
 
@@ -330,7 +150,7 @@ class Footer extends React.Component<any & { location: any; isHome: boolean }> {
             <>
               Made with <span style={{ color: '#fff' }}>❤</span> by
               {/* eslint-disable-next-line react/jsx-curly-brace-presence */}{' '}
-              <a target="_blank" rel="noopener noreferrer" href="https://xtech.antfin.com">
+              <a target="_blank" rel="noopener noreferrer" href="https://lematech.vip">
                 <FormattedMessage id="app.footer.company" />
               </a>
             </>
